@@ -85,9 +85,14 @@ header {
   justify-content: space-between;
 }
 
+a,
+em {
+  color: var(--hot-red);
+}
+
 .angular-logo {
-  max-width: 9.2rem;
-  max-height: 2.25rem;
+  width: 9.2rem;
+  height: 2.25rem;
 }
 
 a.ng-poland {

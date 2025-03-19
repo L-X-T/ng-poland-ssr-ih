@@ -4,7 +4,11 @@ img {
   object-fit: cover;
   filter: grayscale(100%);
 
-  &:hover {
+  header &:hover {
+    filter: grayscale(0%);
+  }
+
+  .is-hydrated & {
     filter: grayscale(0%);
   }
 }
